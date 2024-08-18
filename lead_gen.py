@@ -9,12 +9,12 @@ from selenium.common.exceptions import NoSuchElementException
 import time
 
 # HubSpot OAuth Token
-hubspot_api_token = 'pat-na1-556ea00b-fc93-42fb-83c3-150a2cebb9fb'
+hubspot_api_token = ''
 
 # website to scrape
-website = "https://app.apollo.io/#/people?finderViewId=66a7b2036a43bb01b343747d&page=1&contactEmailStatusV2[]=verified&organizationIds[]=54a1287f69702d8cfcfb5201&organizationIds[]=5f486da15215b10001b652fe&organizationIds[]=5b848357324d444ceb2e3c5a&organizationIds[]=54a1b99474686945fa48500b&finderTableLayoutId=6697a7e2ea09eb02d23a232b"
+website = ""
 # chromedriver path
-chrome_driver_path = r'C:\Users\TUFF\PycharmProjects\Sales Autopilot\AI_agent-Sales-Lead_Generation\src\chromedriver.exe'
+chrome_driver_path = 
 
 # Function to add contact to HubSpot
 def add_contact_to_hubspot(first_name, last_name, job_title, company_name, email, phone_number):
