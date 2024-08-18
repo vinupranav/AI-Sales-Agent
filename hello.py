@@ -67,7 +67,7 @@ user_prompt = st.text_area("Enter your custom prompt for the AI to personalize m
                            placeholder="E.g., Please focus on the lead's industry and recent achievements...")
 
 # HubSpot URL (Replace with your actual URL if needed)
-hubspot_url = "https://app.hubspot.com/contacts/46647525/objects/0-1/views/all/list"
+hubspot_url = ""
 
 # Create a button to start processing
 if st.button("Generate Leads"):
