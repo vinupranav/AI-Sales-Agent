@@ -4,7 +4,7 @@ from hubspot.crm.contacts import ApiException, SimplePublicObjectInput, PublicOb
 from hubspot import HubSpot
 import requests
 
-hubspot = HubSpot(access_token='pat-na1-556ea00b-fc93-42fb-83c3-150a2cebb9fb')
+hubspot = HubSpot(access_token='')
 
 def get_contacts():
     all_contacts = []
