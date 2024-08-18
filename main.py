@@ -16,8 +16,8 @@ os.environ['SSL_CERT_FILE'] = certifi.where()
 
 load_dotenv()
 
-os.environ["GOOGLE_API_KEY"] = "AIzaSyDwErAEmB0HmjcSXP8uh20oLd-05QvPT94"
-os.environ["SERPER_API_KEY"] = "6c01ca7e102ffa2833fb40ad9dcfd05eec8e079e"
+os.environ["GOOGLE_API_KEY"] = ""
+os.environ["SERPER_API_KEY"] = ""
 
 serperdev_instance = SerperDevTool()
 hubspot_instance = HubspotTool(
